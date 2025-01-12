@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Found HUD in The Beast</name>
+    <directory>found hud in the beast</directory>
+    <id>3404876260</id>
+    <description>[h2]Features[/h2]
+During the fight of The Beast, you can see your character's stats. The ; (semicolon) key can be used to toggle the HUD on and off, or you can set a different key by using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2681875787]Mod Config Menu Pure[/url].
+
+[h2]Change HUD icons[/h2]
+You must download the HUD mod from the Workshop and use --luadebug in TBoI: R's launch options in order to swap out the icons for those from another HUD mod. Enter --luadebug only, [b][u]though, if you have trusted mods loaded. Security flaws could happen.[/u][/b] [url=https://bindingofisaacrebirth.wiki.gg/wiki/Launch_Options]To learn more, please click the link.[/url]
+
+[h2]Compatible mods list[/h2]
+Please include the mod's name in the comments section below if you don't see any of the ones you use listed below.
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2797938360]DiegoStarUltra Found HUD Resprite[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2485933538][REP] Afterbirth+ Stat Icons[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=842540059]Classic Found Hud[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2555296681]Color Stat HUD [REP][/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3372513808][Rep+] Color Coded HUD Icons[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1705392676][AB+/REP] Colored Rebirth Stat Icons[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3049634552]Found HUD Icon2Text CN[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3049633188]Found HUD Icon2Text[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1392570201]Mashup Color HUD + AlterTweaks Completion Pins[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2879131773]medalHUD [rep][/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2611855187]PopHud[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3292277654]Stat HUD Resprite[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2492547126]StickerHUD - FULL[/url]
+[/list]
+</description>
+    <version>1.5</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Tweaks"/>
+</metadata>
