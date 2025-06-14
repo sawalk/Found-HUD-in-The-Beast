@@ -1,7 +1,6 @@
 BeastStats = RegisterMod("Found HUD in The Beast", 1)
 local mod = BeastStats
 
-
 ------ Mod Config Menu ------
 local json = require("json")
 
@@ -153,6 +152,11 @@ local function RenderStats(stats, pos, color, lineHeight, isSpeedOnly, isJacob)
 end
 
 local function RenderPlayerStats()
+    local RepentancePlusOffset = Vector(0, 2)
+    if REPENTANCE_PLUS then
+        RepentancePlusOffset = Vector(0, 0)
+    end
+
     if Input.IsButtonTriggered(mod.config.toggleKey, 0) then
         mod.config.showStats = not mod.config.showStats
     end
@@ -168,7 +172,7 @@ local function RenderPlayerStats()
     idleSprite:Play(isJacob and "Idle2" or "Idle")
 
     local HUDOffset = Vector(20 * Options.HUDOffset, 12 * Options.HUDOffset)
-    local spritePos = Vector(0, isJacob and 104 or (isBethany and 99 or 90)) + HUDOffset
+    local spritePos = Vector(0, (isJacob and 104 or (isBethany and 99 or 90)) - RepentancePlusOffset.Y) + HUDOffset
 
     local alphaSpriteColor = Color(1, 1, 1, fadeAlpha, 0, 0, 0)
     idleSprite.Color = alphaSpriteColor
@@ -178,7 +182,7 @@ local function RenderPlayerStats()
     local stats1 = GetStatsText(player1)
     local stats2 = GetStatsText(player2)
 
-    local basePos = Vector(16, isJacob and 100 or (isBethany and 99 or 90)) + HUDOffset
+    local basePos = Vector(16, (isJacob and 100 or (isBethany and 99 or 90)) - RepentancePlusOffset.Y) + HUDOffset
     local lineHeightBase = isJacob and 14 or 12
     local lineHeight = math.max(lineHeightBase * Options.HUDOffset, lineHeightBase)
 
