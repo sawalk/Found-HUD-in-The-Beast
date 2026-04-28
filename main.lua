@@ -102,6 +102,7 @@ if modsPath then
         "medalhud [rep]_2879131773",                     -- by Fruitsnacs
         "pophud_2611855187",                             -- by Paltham
         "statrespritetest_3292277654",                   -- by Blend_r
+        "stats hud resprite_3651406436",                 -- by Aladar.png
         "stickerhud - full_2492547126"                   -- by BreadEnjoyer
     }
 

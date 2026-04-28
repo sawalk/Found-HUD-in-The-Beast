@@ -4,13 +4,12 @@
     <directory>found hud in the beast</directory>
     <id>3404876260</id>
     <description>[h2]Features[/h2]
-During the fight of The Beast, you can see your character's stats. The ; (semicolon) key can be used to toggle the HUD on and off, or you can set a different key by using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2681875787]Mod Config Menu Pure[/url].
+During the fight of The Beast, you can see your character's stats. The ; (semicolon) key can be used to toggle the HUD on and off, or you can set a different key by using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3701683951]Mod Config Menu - Impure[/url].
 
 [h2]Change HUD icons[/h2]
-You must download the HUD mod from the Workshop and use --luadebug in TBoI: R's launch options in order to swap out the icons for those from another HUD mod. Enter --luadebug only, [b][u]though, if you have trusted mods loaded. Security flaws could happen.[/u][/b] [url=https://bindingofisaacrebirth.wiki.gg/wiki/Launch_Options]To learn more, please click the link.[/url]
+You must download the HUD mod from the Workshop and use --luadebug in TBoI: R's launch options in order to swap out the icons for those from another HUD mod. Enter --luadebug only, [b][u]though, if you have trusted mods loaded. Security flaws could happen.[/u][/b] [url=https://bindingofisaacrebirth.wiki.gg/wiki/Launch_Options#--luadebug]To learn more, please click the link.[/url]
 
-[h2]Compatible mods list[/h2]
-Please include the mod's name in the comments section below if you don't see any of the ones you use listed below.
+Only the modes listed below allow you to switch icons. If your preferred manner isn't listed below, do let us know in the comments section.
 [list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2797938360]DiegoStarUltra Found HUD Resprite[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2485933538][REP] Afterbirth+ Stat Icons[/url]
@@ -24,11 +23,14 @@ Please include the mod's name in the comments section below if you don't see any
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2879131773]medalHUD [rep][/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2611855187]PopHud[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3292277654]Stat HUD Resprite[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3651406436]Stats HUD Resprite[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2492547126]StickerHUD - FULL[/url]
 [/list]
-</description>
-    <version>1.5</version>
+
+source code: https://github.com/sawalk/Found-HUD-in-The-Beast</description>
+    <version>1.6</version>
     <visibility>Public</visibility>
     <tag id="Lua"/>
     <tag id="Tweaks"/>
+    <tag id="Graphics"/>
 </metadata>
